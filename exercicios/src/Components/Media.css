@@ -1,0 +1,36 @@
+body{
+   
+    align-items: center;
+    text-align: center;
+}
+
+.Media-conteiner{
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Contador-conteiner{
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Copo-conteiner{
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+

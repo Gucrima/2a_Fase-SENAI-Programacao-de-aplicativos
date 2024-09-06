@@ -4,6 +4,7 @@ import Copo from './Components/Copo'
 import DoisCopos from './Components/DoisCopos'
 import Garcon from './Components/Garcon'
 import './App.css'
+import StarUber from './Components/StarUber'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
    <Copo/>
    <DoisCopos/>
    <Garcon/>
+   <StarUber/>
     </>
   )
 }

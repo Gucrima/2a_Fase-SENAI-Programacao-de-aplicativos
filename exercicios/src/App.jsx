@@ -5,6 +5,7 @@ import DoisCopos from './Components/DoisCopos'
 import Garcon from './Components/Garcon'
 import './App.css'
 import StarUber from './Components/StarUber'
+import Venda from './Components/Venda'
 
 
 function App() {
@@ -12,12 +13,13 @@ function App() {
 
   return (
     <>
-   <Exemplos/>
-   <Media/>
-   <Copo/>
-   <DoisCopos/>
-   <Garcon/>
+   <Venda/>
    <StarUber/>
+   <Garcon/>
+   <DoisCopos/>
+   <Copo/>
+   <Media/>
+   <Exemplos/>
     </>
   )
 }

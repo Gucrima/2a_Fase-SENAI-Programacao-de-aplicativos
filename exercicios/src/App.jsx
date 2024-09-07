@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+   <Nota/>
    <Venda/>
    <StarUber/>
    <Garcon/>

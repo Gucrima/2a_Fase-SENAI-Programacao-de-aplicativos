@@ -1,0 +1,41 @@
+.conteiner-botoes{
+  background-color: #98e09a;
+  text-align: center;
+  align-items: center;
+  padding: 25px;
+  
+}
+
+.renderTexte{
+  text-align: center;
+}
+
+.botao {
+  background-color: #4CAF50; /* Cor de fundo verde */
+  border: none; /* Remove a borda padrão */
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinha o texto ao centro */
+  text-decoration: none; /* Remove o sublinhado */
+  display: inline-block; /* Permite definir largura e altura */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Muda o cursor para mãozinha */
+  border-radius: 8px; /* Bordas arredondadas */
+  transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+  
+}
+
+.botao:hover {
+  background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+.botao:active {
+  background-color: #3e8e41; /* Cor de fundo ao clicar */
+  transform: scale(0.98); /* Efeito de clique */
+}
+
+.botao:focus {
+  outline: none; /* Remove a borda padrão do foco */
+  box-shadow: 0 0 0 3px rgba(0, 128, 0, 0.5); /* Sombra de foco */
+}

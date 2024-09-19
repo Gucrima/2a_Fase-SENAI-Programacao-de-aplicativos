@@ -3,7 +3,9 @@ import './media.css'
 
 
 function Garcon() {
-  const  [resultado, setResultado] = useState()
+
+  const [resultado, setResultado] = useState()
+  
 
     function emprestimo(){
       let valorSalario, valorEmprestimo, numPrestacoes

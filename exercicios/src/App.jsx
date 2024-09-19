@@ -6,6 +6,9 @@ import Garcon from './Components/Garcon'
 import './App.css'
 import StarUber from './Components/StarUber'
 import Venda from './Components/Venda'
+import Cofrinho from './Components/Cofrinho'
+import Nota from './Components/Nota'
+import React from 'react'
 
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
 
   return (
     <>
+   <Cofrinho/>
    <Nota/>
    <Venda/>
    <StarUber/>

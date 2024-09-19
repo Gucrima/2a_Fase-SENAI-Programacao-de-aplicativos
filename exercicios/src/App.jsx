@@ -9,6 +9,7 @@ import Venda from './Components/Venda'
 import Cofrinho from './Components/Cofrinho'
 import Nota from './Components/Nota'
 import React from 'react'
+import ManoJuca from './Components/ManoJuca'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <>
+   <ManoJuca/>
    <Cofrinho/>
    <Nota/>
    <Venda/>

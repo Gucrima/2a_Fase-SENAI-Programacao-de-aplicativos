@@ -3,8 +3,7 @@ import { useState } from 'react'
 
 function ExercicioUm() {
    
-    const [numeroR, setNumeroR] = useState()
-    const [numeroIn, setNumeroIn] = useState()
+    const [resultado, setResultado] = setResultado()
     
     function gerarNumero(){
         
@@ -21,7 +20,9 @@ function ExercicioUm() {
     <div className='numeroSecreto-conteiner'>
       <p>Número secreto!🔐</p>
       <p>Descubra o número secreto</p>
+      <div>
       <input type="text" />
+      </div>
       {}
       <button onClick={gerarNumero}>Gerar número</button>
       <button onClick={descobrirNumero}>descobrir Número</button>

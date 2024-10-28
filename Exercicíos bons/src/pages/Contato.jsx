@@ -1,6 +1,6 @@
 import JanelaModal from "../components/JanelaModal"
-import Navbar from "../components/Navbar"
 import { useState } from 'react'
+import Navbar from "../components/Navbar"
 
 function Contato() {
 
@@ -17,7 +17,11 @@ function Contato() {
       <div className="botao-modal">
       <button onClick={ () => setOpenModal(true)}>Abrir Modal</button>
       </div>
-      <JanelaModal isOpen = {openModal}/>
+
+      <JanelaModal isOpen = {openModal} setModalOpen = {() => setOpenModal(!openModal)}>
+       Olá eu sou o modal!!!
+      </JanelaModal>
+
     </div>
   )
 }
